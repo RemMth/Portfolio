@@ -2,6 +2,9 @@ body {
     font-family: Roboto, "Helvetica Neue", sans-serif;
     background-color: #fbfbfb;
 }
+.modal-body{
+    background-color: #fbfbfb;
+}
 
 .fade-gradient{
     background: linear-gradient(0deg, rgba(131,58,180,0.7) 0%, rgba(253,29,29,0.7) 50%, rgba(252,176,69,0.7) 100%);

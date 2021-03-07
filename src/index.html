@@ -6,16 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta http-equiv="x-ua-compatible" content="ie=edge" />
   <title>Rémi Mathon</title>
-  <!-- Favicon -->
   <link rel="icon" href="src/img/logo.ico" type="image/x-icon" />
 
-  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
-  <!-- Google Fonts Roboto -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
-  <!-- Main css file -->
   <link rel="stylesheet" href="css/index.min.css" />
   <link rel="stylesheet" href="src/css/style.css" />
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"></script>
 
 
 </head>
@@ -80,7 +78,7 @@
   <!-- Navbar -->
 
   <!-- Background image -->
-  <div id="intro" style="background-position: center; " class="bg-image vh-100 shadow-1-strong">
+  <div id="intro" style="background-position: center; " class="bg-image vh-100 w-100 shadow-1-strong">
     <video style="min-width: 50%; min-height: 50%;" playsinline autoplay muted loop>
       <source class="h-100"  src="img/4K_129-2.mp4" type="video/mp4" />
     </video>
@@ -656,7 +654,347 @@
     </div>
   </div>
 
+  <hr class="my-5" />
+  <div class="container">
+    <h1 class="text-center"> Projets </h1>
+    <hr class="my-5" />
+    <div class="row">
+      <div class="col-sm-12 col-md-4 mb-4">
+        <div class="bg-image hover-overlay hover-zoom hover-shadow ripple shadow-1-strong" data-mdb-ripple-color="light">
+          <a type="button" data-mdb-toggle="modal" data-mdb-target="#modalFirst"><img class="img-fluid" src="src/img/Projets/drp.png"></a>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4 mb-4" >
+        <div class="bg-image hover-overlay hover-zoom hover-shadow ripple shadow-1-strong" data-mdb-ripple-color="light">
+          <a type="button" data-mdb-toggle="modal" data-mdb-target="#modalSecond"><img class="img-fluid" src="src/img/Projets/gestabs.png"></a>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4 mb-4">
+        <div class="bg-image hover-overlay hover-zoom hover-shadow ripple shadow-1-strong" data-mdb-ripple-color="light">
+          <a type="button" data-mdb-toggle="modal" data-mdb-target="#modalThird"><img class="img-fluid" src="src/img/Projets/bomberman.jpg"></a>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4 mb-4">
+        <div class="bg-image hover-overlay hover-zoom hover-shadow ripple shadow-1-strong" data-mdb-ripple-color="light">
+          <a type="button" data-mdb-toggle="modal" data-mdb-target="#modalFourth"><img class="img-fluid" src="src/img/Projets/marathon.PNG"></a>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4 mb-4">
+        <div class="bg-image hover-overlay hover-zoom hover-shadow ripple shadow-1-strong" data-mdb-ripple-color="light">
+          <a type="button" data-mdb-toggle="modal" data-mdb-target="#modalFifth"><img class="img-fluid" src="src/img/Projets/CDIN.PNG"></a>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4 mb-4">
+        <div class="bg-image hover-overlay hover-zoom hover-shadow ripple shadow-1-strong" data-mdb-ripple-color="light">
+          <a type="button" data-mdb-toggle="modal" data-mdb-target="#modalSixth"><img class="img-fluid" src="src/img/Projets/schoolInfo.PNG"></a>
+        </div>
+      </div>
+    </div>
 
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="modalFirst"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalFirstLabel">Site support DRP Software</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-mdb-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 col-sm-12 mb-4">
+                  <img class="w-100" src="img/Projets/drp.png">
+                </div>
+                <div class="col-md-6 col-sm-12">
+                  <p class="font-italic"> Voici la page de connexion du web support.</p>
+                  <p>Site support de <strong>DRP Software</strong> accèssible <a href="https://support.drp-software.fr">ici</a> </p>
+                  <p>Le site à été réalisé pendant mon alternance au sein de l'entreprise. Le site permet aux clients de télécharger les <strong>produits</strong>, des <strong>patch</strong> ou de la <strong>documentation</strong> pour les produits qu'ils possèdent. </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-sm-12 mb-4">
+                  <img class="w-100" src="img/Projets/acc.png">
+                </div>
+                <div class="col-md-6 col-sm-12">
+                  <p class="font-italic"> Voici la page d'accueil du site lors de la connexion.</p>
+                  <p>Les clients peuvent se connecter grâce aux identifiants fournis par DRP.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="modal-footer ">
+              <div class="col-1 float-start">
+                <img class="w-50" src="img/logo/html.png">
+              </div>
+              <div class="col-1 float-start">
+                <img class="w-50" src="img/logo/css.png">
+              </div>
+              <div class="col-1 float-start">
+                <img class="w-50" src="img/logo/php.png">
+              </div>
+              <div class="col-1 float-start">
+                <img class="w-50" src="img/logo/js.png">
+              </div>
+              <div class="col-1 float-start">
+                <img class="w-50" src="img/logo/mysql.png">
+              </div>
+              <div class="col-1 float-start">
+                <img class="w-50" src="img/logo/ibm.png">
+              </div>
+            <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+              Fermer
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="modalSecond"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalSecondLabel">Gestion des absences</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-mdb-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 col-sm-12 mb-4">
+                  <img class="w-100" src="img/Projets/gestabs.png">
+                </div>
+                <div class="col-md-6 col-sm-12">
+                  <p class="font-italic"> Voici la page d'accueil du site de gestion des absences'.</p>
+                  <p>Ce site est une plateforme web de gestion des absences réalisé en duo dans le cadre d'un projet scolaire</p>
+                  <p>Pour faire le site, nous avons utilisé <strong>Laravel</strong> pour la partie serveur et <strong>Angular</strong> pour la partie client</p>
+                  <p>Les utilisateurs du site peuvent être:</p>
+                  <ul>
+                    <li>Etudiant (consulter EDT et absences)</li>
+                    <li>Secretaire (gerer absences et consulter EDT)</li>
+                    <li>Administrateur(Secretaire + gerer utilisateurs)</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-sm-12 mb-4">
+                  <img class="w-100" src="img/Projets/addabs.png">
+                </div>
+                <div class="col-md-6 col-sm-12">
+                  <p class="font-italic"> Page pour ajouter une absence.</p>
+                  <p>Une absence peut être ajouté a un étudiant en particulier, la durée sera alors défini par créneau, demi-journée, journée ou entre 2 dates.
+                  </p>
+                  <p>Pour ajouter une absence, la secretaire peux aussi selectionner un cours et cocher les étudiants qui n'étaient pas présents.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <div class="col-1 float-start">
+              <img class="w-50" src="img/logo/angular.png">
+            </div>
+            <div class="col-1 float-start">
+              <img class="w-50" src="img/logo/ts.png">
+            </div>
+            <div class="col-1 float-start">
+              <img class="w-50" src="img/logo/laravel.png">
+            </div>
+            <div class="col-1 float-start">
+              <img class="w-50" src="img/logo/php.png">
+            </div>
+            <div class="col-1 float-start">
+              <img class="w-50" src="img/logo/mysql.png">
+            </div>
+            <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal" >
+              Fermer
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="modalThird"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalThirdLabel">Bomberman</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-mdb-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 col-sm-12 mb-4">
+                  <img class="w-100" src="img/Projets/bomberman.jpg">
+                </div>
+                <div class="col-md-6 col-sm-12">
+                  <p class="font-italic"> Fenêtre de jeu.</p>
+                  <p>Voici notre bomberman réalisé en <strong>Python</strong> grâce à la bibliothèque <strong>PyQt5</strong></p>
+                  <p>Le but du jeu est de rentrer dans le poulailler en bas à droite. Le joueur doit pour cela poser des bombes et faire attention à ne pas se faire surprendre par l'IA.</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <div class="col-1 float-start">
+              <img class="w-50" src="img/logo/python.png">
+            </div>
+            <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+              Fermer
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="modalFourth"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalFourthLabel">Atmos</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-mdb-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">...</div>
+          <div class="modal-footer">
+            <div class="col-1 float-start">
+              <img class="w-50" src="img/logo/laravel.png">
+            </div>
+            <div class="col-1 float-start">
+              <img class="w-50" src="img/logo/php.png">
+            </div>
+            <div class="col-1 float-start">
+              <img class="w-50" src="img/logo/mysql.png">
+            </div>
+            <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+              Fermer
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="modalFifth"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalFifthLabel">Refonte du site des IUT Informatique</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-mdb-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">...</div>
+          <div class="modal-footer">
+            <div class="col-1 float-start">
+              <img class="w-50" src="img/logo/html.png">
+            </div>
+            <div class="col-1 float-start">
+              <img class="w-50" src="img/logo/css.png">
+            </div>
+            <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+              Fermer
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="modalSixth"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalSixthLabel">School Info</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-mdb-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">...</div>
+          <div class="modal-footer">
+            <div class="col-1 float-start">
+              <img class="w-50" src="img/logo/html.png">
+            </div>
+            <div class="col-1 float-start">
+              <img class="w-50" src="img/logo/css.png">
+            </div>
+            <div class="col-1 float-start">
+              <img class="w-50" src="img/logo/php.png">
+            </div>
+            <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+              Fermer
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <iframe src="https://embed.waze.com/iframe?zoom=16&lat=50.437822&lon=3.062109&ct=livemap" width="600" height="450" allowfullscreen></iframe>
 </main>
 
 
