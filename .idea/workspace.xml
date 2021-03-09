@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1c459043-8030-4f87-bf58-3025f72aeae4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/css/style.css" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectId" id="1pCxi7WlM7eN3Itvdli0R9NX4FT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.stylelint" value="$PROJECT_DIR$/node_modules/stylelint" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/img" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c459043-8030-4f87-bf58-3025f72aeae4" name="Default Changelist" comment="" />
+      <created>1614700998198</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614700998198</updated>
+      <workItem from="1614700999303" duration="6464000" />
+      <workItem from="1614763935467" duration="14891000" />
+      <workItem from="1614796194326" duration="3000" />
+      <workItem from="1615033460269" duration="5897000" />
+      <workItem from="1615046545991" duration="252000" />
+      <workItem from="1615049991129" duration="13496000" />
+      <workItem from="1615222975567" duration="840000" />
+      <workItem from="1615280495311" duration="2113000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="481" y="150" key="#CSS" timestamp="1614766005952">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="481" y="150" key="#CSS/0.0.1440.900@0.0.1440.900" timestamp="1614766005952" />
+    <state x="357" y="357" key="#Stylelint" timestamp="1614766039451">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="357" y="357" key="#Stylelint/0.0.1440.900@0.0.1440.900" timestamp="1614766039451" />
+    <state x="207" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614713528786">
+      <screen x="48" y="25" width="1392" height="875" />
+    </state>
+    <state x="207" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog/48.25.1392.875@48.25.1392.875" timestamp="1614713528786" />
+    <state x="454" y="288" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615144325643">
+      <screen x="42" y="25" width="1398" height="875" />
+    </state>
+    <state x="424" y="270" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1614705086969" />
+    <state x="454" y="288" key="#com.intellij.fileTypes.FileTypeChooser/42.25.1398.875@42.25.1398.875" timestamp="1615144325643" />
+    <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1614705446590">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1614705446590" />
+    <state x="491" y="234" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/48.25.1392.875@48.25.1392.875" timestamp="1614704941446" />
+    <state x="551" y="363" key="Github.ShareDialog" timestamp="1614713550379">
+      <screen x="48" y="25" width="1392" height="875" />
+    </state>
+    <state x="551" y="363" key="Github.ShareDialog/48.25.1392.875@48.25.1392.875" timestamp="1614713550379" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1615282209919">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1615282209919" />
+    <state x="521" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614768440239">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="521" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1614768440239" />
+    <state x="421" y="219" width="597" height="490" key="find.popup" timestamp="1615034674808">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="421" y="219" width="597" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1615034674808" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1615124869797">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1615124869797" />
+  </component>
+</project>
