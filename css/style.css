@@ -1,0 +1,80 @@
+body {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    background-color: #fbfbfb;
+    scroll-behavior: smooth;
+}
+.modal-body{
+    background-color: #fbfbfb;
+}
+
+.fade-gradient{
+    background: linear-gradient(0deg, rgba(131,58,180,0.7) 0%, rgba(253,29,29,0.7) 50%, rgba(252,176,69,0.7) 100%);
+}
+
+.border-fade{
+    border: 3px solid;
+    border-image: linear-gradient(0deg, rgba(164,108,242,1) 0%, rgba(172,66,217,1) 100%) 3;
+    padding: 3px;
+}
+
+@media (min-width: 992px) {
+    #intro {
+        margin-top: -58.59px;
+    }
+}
+
+.navbar .nav-link {
+    color: #fff !important;
+}
+
+html {
+    box-sizing: border-box;
+}
+*,*::before,*::after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+}
+.wave-container {
+
+}
+.wave-container > svg {
+    display: block;
+}
+.streak {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    height:250px
+}
+.streak.streak-long-2 {
+    height:400px
+}
+
+@media (max-width: 450px) {
+    .streak.streak-long-2 {
+        height:700px
+    }
+}
+
+.streak.streak-photo {
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position:center
+}
+
+@media (min-width: 1366px) {
+    .streak.streak-photo {
+        background-attachment:fixed
+    }
+}
+
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100%; /* These two lines are counted as one :-)       */
+
+    display: flex;
+    align-items: center;
+}
