@@ -1,8 +1,5 @@
-MDB5
-Version: FREE 3.3.0
+#Portfolio de Rémi Mathon
 
-Documentation:
-https://mdbootstrap.com/docs/standard/
+##Réalisé avec MDBootstrap 5
 
-Contact:
-office@mdbootstrap.com
+Contact: remi-mathon@protonmail.com
